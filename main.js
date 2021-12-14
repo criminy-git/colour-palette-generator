@@ -1,6 +1,6 @@
 var code = document.querySelectorAll('.code');
 var colour = document.querySelectorAll('.colour');
-var button = document.querySelector('button');
+var button = document.querySelector('#generate-button');
 
 button.addEventListener("click",colourGen);
 
