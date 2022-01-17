@@ -2,11 +2,7 @@
 
 import * as colourGen from './colourGen.js';
 
+colourGen()
 
-button.addEventListener("click",colourGen);
+import * as buttons from './buttons.js';
 
-window.onkeyup = (e)=> {
-    if (e.which||e.keycode == 33) {
-        colourGen();
-    }
-}
