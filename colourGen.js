@@ -1,4 +1,4 @@
-const colourGen = () => {
+function colourGen() {
     var letters = "0123456789abcdef";
     var hashtag = ["#","#","#","#","#","#"];
     for (let i=0; i<6; i++) {
@@ -14,6 +14,5 @@ const colourGen = () => {
         colour[i].style.backgroundColor = hashtag[i];
     }
 }
-colourGen()
 
 export default colourGen
