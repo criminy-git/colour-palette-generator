@@ -18,4 +18,5 @@ export function colourGen() {
         colour[i].style.backgroundColor = hashtag[i];
     }
 }
+colourGen()
 
