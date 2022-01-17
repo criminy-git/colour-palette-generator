@@ -1,7 +1,7 @@
 
 
-import colourGen from './colourGen.js'
-colourGen()
+import * as colourGen from './colourGen.js';
+
 
 button.addEventListener("click",colourGen);
 
