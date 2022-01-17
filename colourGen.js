@@ -1,4 +1,8 @@
-function colourGen() {
+export var code = document.querySelectorAll('.code');
+export var colour = document.querySelectorAll('.colour');
+export var button = document.querySelector('button');
+
+export function colourGen() {
     var letters = "0123456789abcdef";
     var hashtag = ["#","#","#","#","#","#"];
     for (let i=0; i<6; i++) {
@@ -15,4 +19,3 @@ function colourGen() {
     }
 }
 
-export default colourGen
