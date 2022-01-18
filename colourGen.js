@@ -18,5 +18,6 @@ export function colourGen() {
         colour[i].style.backgroundColor = hashtag[i];
     }
 }
-colourGen()
+
+export const btnAction = document.getElementById("btn").addEventListener("click",colourGen())
 
