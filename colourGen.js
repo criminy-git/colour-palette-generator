@@ -22,8 +22,8 @@ export const colourGen = () => {
 }
  
 
-export const buttonAction = window.onkeyup = (e) => {
-    if (e.which||e.addEventListener("click")) {
+export const buttonAction = (e) => {
+    if (e.which||button.addEventListener("click")) {
         colourGen();
     }
     
