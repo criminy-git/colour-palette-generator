@@ -1,8 +1,10 @@
-export var code = document.querySelectorAll('.code');
-export var colour = document.querySelectorAll('.colour');
-export var button = document.querySelector('button');
 
-export function colourGen() {
+export const code = document.querySelectorAll('.code');
+export const colour = document.querySelectorAll('.colour');
+export const button = document.getElementById("button");
+
+
+export const colourGen = () => {
     var letters = "0123456789abcdef";
     var hashtag = ["#","#","#","#","#","#"];
     for (let i=0; i<6; i++) {
@@ -18,6 +20,18 @@ export function colourGen() {
         colour[i].style.backgroundColor = hashtag[i];
     }
 }
+ 
 
-export const btnAction = document.getElementById("btn").addEventListener("click",colourGen())
+export const buttonAction = window.onkeyup = (e) => {
+    if (e.which||e.addEventListener("click")) {
+        colourGen();
+    }
+    
+}
+
+export const spacebarAction = window.onkeyup = (e) => {
+    if (e.which||e.keycode ==33) {
+        colourGen();
+    }
+}
 
