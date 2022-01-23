@@ -1,3 +1,2 @@
-import * as selectors from './selectors.js';
-import * as colourGen from './colourGen.js';
-colourGen();
+import * as generateColours from './generateColours.js';
+generateColours();
