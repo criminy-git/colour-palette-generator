@@ -1,1 +1,1 @@
-[Link to finished project](https://criminy-git.github.io/colour-palette-generator/)
+[Link to finished project](https://j-pohl.github.io/colour-palette-generator/)
